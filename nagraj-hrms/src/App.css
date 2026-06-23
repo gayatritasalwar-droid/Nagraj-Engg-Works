@@ -1,0 +1,34 @@
+:root {
+  --primary-dark: #0a2a38;
+  --primary: #1e4a6e;
+  --primary-light: #2c6288;
+  --accent: #f4a261;
+  --accent-dark: #e76f51;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --info: #3b82f6;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #eef2f9 0%, #e8edf5 100%);
+  min-height: 100vh;
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.toast-message {
+  animation: slideInRight 0.3s ease;
+}

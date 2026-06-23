@@ -1,0 +1,93 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #eef2f9 100%);
+}
+
+.dashboard-header {
+  background: white;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 3px solid var(--accent);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-section i {
+  font-size: 32px;
+  color: var(--accent);
+}
+
+.logo-section h2 {
+  color: var(--primary);
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.logo-section p {
+  color: var(--gray-600);
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  padding: 8px 20px;
+  border-radius: 40px;
+  color: white;
+}
+
+.user-badge i {
+  font-size: 20px;
+}
+
+.user-badge span {
+  font-weight: 600;
+}
+
+.user-badge small {
+  opacity: 0.8;
+  font-size: 0.7rem;
+}
+
+.logout-btn {
+  background: var(--danger);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+.dashboard-body {
+  padding: 32px;
+}
