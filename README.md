@@ -35,7 +35,7 @@
 
 ## 🛠️ Tech Stack
 
-### Mern Stack
+### Mern
 - React.js
 - Node.js
 - Express.js
