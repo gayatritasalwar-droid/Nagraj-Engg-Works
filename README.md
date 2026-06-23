@@ -37,7 +37,7 @@
 
 ### Mern Stack
 - React.js
-- - Node.js
+- Node.js
 - Express.js
 - MongoDB
 
